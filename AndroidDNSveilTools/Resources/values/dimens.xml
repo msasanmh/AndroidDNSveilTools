@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<dimen name="msmh_FontSize_Small">12sp</dimen>
+	<dimen name="msmh_FontSize_Medium">16sp</dimen>
+	<dimen name="msmh_FontSize_Large">20sp</dimen>
+	<dimen name="msmh_Elevation">4dp</dimen>
+	<dimen name="msmh_Margin">6dp</dimen>
+	<dimen name="msmh_Margin_Half">3dp</dimen>
+	<dimen name="msmh_Line">1dp</dimen>
+	<dimen name="msmh_Logo_Max_Width">500dp</dimen>
+	<dimen name="msmh_Logo_Max_Height">100dp</dimen>
+	<dimen name="msmh_0dp">0dp</dimen>
+	<dimen name="msmh_1dp">1dp</dimen>
+	<dimen name="msmh_2dp">2dp</dimen>
+	<dimen name="msmh_3dp">3dp</dimen>
+	<dimen name="msmh_4dp">4dp</dimen>
+	<dimen name="msmh_5dp">5dp</dimen>
+	<dimen name="msmh_6dp">6dp</dimen>
+	<dimen name="msmh_7dp">7dp</dimen>
+	<dimen name="msmh_8dp">8dp</dimen>
+	<dimen name="msmh_9dp">9dp</dimen>
+	<dimen name="msmh_10dp">10dp</dimen>
+	<dimen name="msmh_15dp">15dp</dimen>
+	<dimen name="msmh_20dp">20dp</dimen>
+	<dimen name="msmh_25dp">25dp</dimen>
+	<dimen name="msmh_30dp">30dp</dimen>
+	<dimen name="msmh_35dp">35dp</dimen>
+	<dimen name="msmh_40dp">40dp</dimen>
+	<dimen name="msmh_45dp">45dp</dimen>
+	<dimen name="msmh_50dp">50dp</dimen>
+	<dimen name="msmh_55dp">55dp</dimen>
+	<dimen name="msmh_60dp">60dp</dimen>
+	<dimen name="msmh_65dp">65dp</dimen>
+	<dimen name="msmh_70dp">70dp</dimen>
+	<dimen name="msmh_75dp">75dp</dimen>
+	<dimen name="msmh_80dp">80dp</dimen>
+	<dimen name="msmh_85dp">85dp</dimen>
+	<dimen name="msmh_90dp">90dp</dimen>
+	<dimen name="msmh_95dp">95dp</dimen>
+	<dimen name="msmh_100dp">100dp</dimen>
+	<dimen name="msmh_150dp">150dp</dimen>
+	<dimen name="msmh_200dp">200dp</dimen>
+</resources>

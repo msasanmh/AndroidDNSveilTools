@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rounded">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/msmh_FontSize_Large"
+        android:textColor="@color/msmh_Forecolor"
+        android:text="@string/sample_text"/>
+
+    <TextView
+        android:id="@+id/textViewHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/msmh_10dp"
+        android:textSize="@dimen/msmh_FontSize_Small"
+        android:textColor="@color/msmh_Forecolor"
+        android:text="@string/sample_text"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:minLines="5"
+        android:textSize="@dimen/msmh_FontSize_Medium"
+        android:textColor="@color/msmh_Forecolor_Darker"
+        android:hint="@string/type_here"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/msmh_5dp"/>
+
+</LinearLayout>

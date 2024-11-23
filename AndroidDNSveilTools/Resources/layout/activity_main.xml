@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark">
+
+    <!--// Main Content View //-->
+    <LinearLayout
+        android:id="@id/action_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:background="@android:color/holo_orange_dark">
+
+        <!--// Toolbar //-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/msmh_Elevation"
+            android:contentInsetStartWithNavigation="@dimen/msmh_0dp"
+            android:paddingTop="@dimen/msmh_0dp"
+            android:paddingBottom="@dimen/msmh_0dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/msmh_DodgerBlue">
+
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_below="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/msmh_Dark"/>
+
+    </LinearLayout>
+
+    <!--// Navigation Drawer //-->
+    <LinearLayout
+        android:layout_below="@id/action_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:background="@color/msmh_Dark">
+
+        <ImageView
+            android:id="@+id/drawer_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxWidth="@dimen/msmh_Logo_Max_Width"
+            android:maxHeight="@dimen/msmh_Logo_Max_Height"
+            android:src="@drawable/dnsveil_logossl"
+            android:layout_marginLeft="@dimen/msmh_Margin"
+            android:layout_marginRight="@dimen/msmh_Margin"
+            android:contentDescription=""/>
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/msmh_Darker"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="@dimen/msmh_0dp"/>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

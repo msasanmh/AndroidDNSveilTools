@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>net.msasanmh.AndroidDNSveilTools</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <Title>DNSveil - DNS Tools</Title>
+    <Copyright>MSasanMH</Copyright>
+	<AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidMessageHandler</AndroidHttpClientHandlerType>
+	<UseNativeHttpHandler>true</UseNativeHttpHandler>
+	<Platforms>AnyCPU;x64;x86;ARM64;ARM32</Platforms>
+	<PackageProjectUrl>https://github.com/msasanmh/AndroidDNSveilTools</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/msasanmh/AndroidDNSveilTools</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM32'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM32'">
+    <AndroidKeyStore>False</AndroidKeyStore>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+  </PropertyGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\colors.xml" />
+	<AndroidResource Include="Resources\values\dimens.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="EnvironmentVariables.txt" />
+    <None Remove="Resources\Anim\enter_from_bottom.xml" />
+    <None Remove="Resources\Anim\enter_from_left.xml" />
+    <None Remove="Resources\Anim\enter_from_right.xml" />
+    <None Remove="Resources\Anim\enter_from_top.xml" />
+    <None Remove="Resources\Anim\exit_to_bottom.xml" />
+    <None Remove="Resources\Anim\exit_to_left.xml" />
+    <None Remove="Resources\Anim\exit_to_right.xml" />
+    <None Remove="Resources\Anim\exit_to_top.xml" />
+    <None Remove="Resources\Drawable\bg_Rounded_NoPad.xml" />
+    <None Remove="Resources\Drawable\bg_Rounded_NoPad_Stroke.xml" />
+    <None Remove="Resources\layout\fragment_about.xml" />
+    <None Remove="Resources\layout\fragment_DnsLookup.xml" />
+    <None Remove="Resources\layout\fragment_home.xml" />
+    <None Remove="Resources\layout\fragment_settings.xml" />
+    <None Remove="Resources\layout\InputBox.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidEnvironment Include="EnvironmentVariables.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MsmhAgnosticServer" Version="1.6.7" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.DrawerLayout" Version="1.2.0.14" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="DNSveil\Resource\Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="DNSveil\Resource\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

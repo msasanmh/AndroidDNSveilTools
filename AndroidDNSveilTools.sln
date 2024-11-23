@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndroidDNSveilTools", "AndroidDNSveilTools\AndroidDNSveilTools.csproj", "{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM32 = Debug|ARM32
+		Debug|ARM64 = Debug|ARM64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM32 = Release|ARM32
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM32.ActiveCfg = Debug|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM32.Build.0 = Debug|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM32.Deploy.0 = Debug|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM32.ActiveCfg = Release|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM32.Build.0 = Release|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM32.Deploy.0 = Release|ARM32
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM64.Build.0 = Release|ARM64
+		{3C6B9094-0CA0-4E92-81CE-69FF74DD83B2}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A99A40DE-95B3-4410-8B21-6A91F91D01D3}
+	EndGlobalSection
+EndGlobal

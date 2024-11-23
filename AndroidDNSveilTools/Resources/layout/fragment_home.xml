@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_rounded">
+        <Button
+            android:id="@+id/button_HomeScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/msmh_FontSize_Medium"
+            android:text="@string/home_Scan"
+            android:textAllCaps="false"
+            android:textColor="@color/msmh_Darker"
+            android:textStyle="bold"
+            android:backgroundTint="@color/msmh_MediumSeaGreen"/>
+        <TextView
+            android:id="@+id/textView_HomeStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/msmh_FontSize_Medium"
+            android:textColor="@color/msmh_Forecolor"
+            android:paddingLeft="@dimen/msmh_6dp"
+            android:paddingRight="@dimen/msmh_6dp"
+            android:paddingBottom="@dimen/msmh_4dp"
+            android:text="@string/sample_text"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_HomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_rounded">
+        <LinearLayout
+            android:id="@+id/linearLayout_HomeInfo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+        <!--// Log Window //-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

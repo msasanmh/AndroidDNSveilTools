@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="msmh_Forecolor">#EEEEEE</color>
+	<color name="msmh_Forecolor_Darker">#BBBBBB</color>
+	<color name="msmh_Dark">#212121</color>
+	<color name="msmh_Darker">#1A1A1A</color>
+	<color name="msmh_DodgerBlue">#005A9C</color>
+	<color name="msmh_IndianRed">#CD5C5C</color>
+	<color name="msmh_MediumSeaGreen">#3CB371</color>
+</resources>

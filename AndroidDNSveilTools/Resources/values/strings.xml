@@ -1,0 +1,28 @@
+<resources>
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	<string name="empty"></string>
+	<string name="sample_text">Sample Text</string>
+	<string name="sample_text_multiline">Sample Text 1\nSample Text 2\nSample Text 3\nSample Text 4</string>
+	<string name="type_here">Type Here</string>
+    <string name="app_name">DNSveil - DNS Tools</string>
+	<string name="title_DnsLookup">DNS Lookup</string>
+	<string name="title_Settings">Settings</string>
+	<string name="title_About">About</string>
+	<string name="home_Scan">Scan</string>
+	<string name="dnslookup_DnsAddress">DNS:</string>
+	<string name="dnslookup_Domain">Domain:</string>
+	<string name="dnslookup_RRTYPE">RRTYPE:</string>
+	<string name="dnslookup_AllowInsecure">Allow Insecure</string>
+	<string name="dnslookup_Lookup">Lookup</string>
+	<string name="settings_BlockedDomain">A DNS Based Blocked Domain:</string>
+	<string name="settings_TimeoutMS">Timeout (ms):</string>
+	<string name="settings_TimeoutMS_Hint">Enter Number Between 100-10000</string>
+	<string name="settings_AllowInsecure">Allow Insecure (Ignore Certificate Errors)</string>
+	<string name="settings_DnsProviders">DNS Providers (Each Line One URL):</string>
+	<string name="settings_ResetSettingsToDefaults">Reset To Defaults</string>
+	<string name="about_Project_Page">Open Source Project:</string>
+	<string name="about_Project_Page_Url">https://github.com/msasanmh/AndroidDNSveilTools</string>
+	<string name="about_Version">Version:</string>
+	<string name="about_Architecture">Architecture:</string>
+</resources>

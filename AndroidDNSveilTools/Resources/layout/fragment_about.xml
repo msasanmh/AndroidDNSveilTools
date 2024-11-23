@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/msmh_Dark">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/dnsveil_logossl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:maxHeight="@dimen/msmh_200dp"
+            android:contentDescription=""
+            android:background="@drawable/bg_rounded"/>
+        <LinearLayout
+            android:id="@+id/linearLayout_AboutProjectPage"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingTop="@dimen/msmh_10dp"
+            android:paddingBottom="@dimen/msmh_10dp"
+            android:background="@drawable/bg_rounded">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_Project_Page"/>
+            <TextView
+                android:id="@+id/textView_AboutProjectURL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_Project_Page_Url"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/msmh_10dp"
+            android:paddingBottom="@dimen/msmh_10dp"
+            android:background="@drawable/bg_rounded">
+            <TextView
+                android:id="@+id/textView_AboutAppVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_Version"/>
+            <TextView
+                android:id="@+id/textView_AboutAppArchitecture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_Architecture"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
