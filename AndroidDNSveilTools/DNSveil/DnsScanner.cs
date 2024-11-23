@@ -143,9 +143,9 @@ public class DnsScanner
 
             // Sort By Latency
             WorkingServers = WorkingServers.OrderBy(x => x.Item1).ToList();
-            OnScanFinished?.Invoke(this, new ResultEventArgs(WorkingServers));
 
             IsRunning = false;
+            OnScanFinished?.Invoke(this, new ResultEventArgs(WorkingServers));
         }
         catch (Exception ex)
         {
